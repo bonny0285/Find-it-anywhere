@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454525A299C8EA2F16AEF87F /* Pods_FindItAnywhere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9140E6B38091FD4AD4EA07D /* Pods_FindItAnywhere.framework */; };
+		B408AC592299D6930000AE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408AC582299D6930000AE68 /* AppDelegate.swift */; };
+		B408AC5B2299D6930000AE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408AC5A2299D6930000AE68 /* ViewController.swift */; };
+		B408AC5E2299D6930000AE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B408AC5C2299D6930000AE68 /* Main.storyboard */; };
+		B408AC602299D6940000AE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B408AC5F2299D6940000AE68 /* Assets.xcassets */; };
+		B408AC632299D6940000AE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B408AC612299D6940000AE68 /* LaunchScreen.storyboard */; };
+		B408AC6E2299D6940000AE68 /* FindItAnywhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408AC6D2299D6940000AE68 /* FindItAnywhereTests.swift */; };
+		B408AC7B2299D9BE0000AE68 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408AC7A2299D9BE0000AE68 /* Weather.swift */; };
+		DE7AC1F6F4DEBE4885DB2EB9 /* Pods_FindItAnywhereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2157BFE8DE11A28EF9ABC5 /* Pods_FindItAnywhereTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B408AC6A2299D6940000AE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B408AC4D2299D6930000AE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B408AC542299D6930000AE68;
+			remoteInfo = FindItAnywhere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AD3C13565E6C4B233075BB /* Pods-FindItAnywhereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindItAnywhereTests.debug.xcconfig"; path = "Target Support Files/Pods-FindItAnywhereTests/Pods-FindItAnywhereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B2157BFE8DE11A28EF9ABC5 /* Pods_FindItAnywhereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindItAnywhereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61075CE0F44769D92426A246 /* Pods-FindItAnywhereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindItAnywhereTests.release.xcconfig"; path = "Target Support Files/Pods-FindItAnywhereTests/Pods-FindItAnywhereTests.release.xcconfig"; sourceTree = "<group>"; };
+		75DE530BD99B57A862765323 /* Pods-FindItAnywhere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindItAnywhere.release.xcconfig"; path = "Target Support Files/Pods-FindItAnywhere/Pods-FindItAnywhere.release.xcconfig"; sourceTree = "<group>"; };
+		86E9297E077216B2A12DF4FB /* Pods-FindItAnywhere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindItAnywhere.debug.xcconfig"; path = "Target Support Files/Pods-FindItAnywhere/Pods-FindItAnywhere.debug.xcconfig"; sourceTree = "<group>"; };
+		B408AC552299D6930000AE68 /* FindItAnywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindItAnywhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B408AC582299D6930000AE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B408AC5A2299D6930000AE68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B408AC5D2299D6930000AE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B408AC5F2299D6940000AE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B408AC622299D6940000AE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B408AC642299D6940000AE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B408AC692299D6940000AE68 /* FindItAnywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindItAnywhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B408AC6D2299D6940000AE68 /* FindItAnywhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindItAnywhereTests.swift; sourceTree = "<group>"; };
+		B408AC6F2299D6940000AE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B408AC7A2299D9BE0000AE68 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F9140E6B38091FD4AD4EA07D /* Pods_FindItAnywhere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindItAnywhere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B408AC522299D6930000AE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454525A299C8EA2F16AEF87F /* Pods_FindItAnywhere.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B408AC662299D6940000AE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7AC1F6F4DEBE4885DB2EB9 /* Pods_FindItAnywhereTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A37CDF6D38BFE9C8DAFA978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E9297E077216B2A12DF4FB /* Pods-FindItAnywhere.debug.xcconfig */,
+				75DE530BD99B57A862765323 /* Pods-FindItAnywhere.release.xcconfig */,
+				02AD3C13565E6C4B233075BB /* Pods-FindItAnywhereTests.debug.xcconfig */,
+				61075CE0F44769D92426A246 /* Pods-FindItAnywhereTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E81201F0FE2A196A0AF3293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9140E6B38091FD4AD4EA07D /* Pods_FindItAnywhere.framework */,
+				3B2157BFE8DE11A28EF9ABC5 /* Pods_FindItAnywhereTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B408AC4C2299D6930000AE68 = {
+			isa = PBXGroup;
+			children = (
+				B408AC572299D6930000AE68 /* FindItAnywhere */,
+				B408AC6C2299D6940000AE68 /* FindItAnywhereTests */,
+				B408AC562299D6930000AE68 /* Products */,
+				5A37CDF6D38BFE9C8DAFA978 /* Pods */,
+				8E81201F0FE2A196A0AF3293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B408AC562299D6930000AE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B408AC552299D6930000AE68 /* FindItAnywhere.app */,
+				B408AC692299D6940000AE68 /* FindItAnywhereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B408AC572299D6930000AE68 /* FindItAnywhere */ = {
+			isa = PBXGroup;
+			children = (
+				B408AC792299D9A30000AE68 /* View Controller */,
+				B408AC782299D9930000AE68 /* Data */,
+				B408AC582299D6930000AE68 /* AppDelegate.swift */,
+				B408AC5C2299D6930000AE68 /* Main.storyboard */,
+				B408AC5F2299D6940000AE68 /* Assets.xcassets */,
+				B408AC612299D6940000AE68 /* LaunchScreen.storyboard */,
+				B408AC642299D6940000AE68 /* Info.plist */,
+			);
+			path = FindItAnywhere;
+			sourceTree = "<group>";
+		};
+		B408AC6C2299D6940000AE68 /* FindItAnywhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				B408AC6D2299D6940000AE68 /* FindItAnywhereTests.swift */,
+				B408AC6F2299D6940000AE68 /* Info.plist */,
+			);
+			path = FindItAnywhereTests;
+			sourceTree = "<group>";
+		};
+		B408AC782299D9930000AE68 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B408AC7A2299D9BE0000AE68 /* Weather.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B408AC792299D9A30000AE68 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B408AC5A2299D6930000AE68 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B408AC542299D6930000AE68 /* FindItAnywhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B408AC722299D6940000AE68 /* Build configuration list for PBXNativeTarget "FindItAnywhere" */;
+			buildPhases = (
+				8C2B87F83E1330D21657A436 /* [CP] Check Pods Manifest.lock */,
+				B408AC512299D6930000AE68 /* Sources */,
+				B408AC522299D6930000AE68 /* Frameworks */,
+				B408AC532299D6930000AE68 /* Resources */,
+				B964377125667908DEB8514B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindItAnywhere;
+			productName = FindItAnywhere;
+			productReference = B408AC552299D6930000AE68 /* FindItAnywhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B408AC682299D6940000AE68 /* FindItAnywhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B408AC752299D6940000AE68 /* Build configuration list for PBXNativeTarget "FindItAnywhereTests" */;
+			buildPhases = (
+				7EE7E822F03608A04EA1C1A1 /* [CP] Check Pods Manifest.lock */,
+				B408AC652299D6940000AE68 /* Sources */,
+				B408AC662299D6940000AE68 /* Frameworks */,
+				B408AC672299D6940000AE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B408AC6B2299D6940000AE68 /* PBXTargetDependency */,
+			);
+			name = FindItAnywhereTests;
+			productName = FindItAnywhereTests;
+			productReference = B408AC692299D6940000AE68 /* FindItAnywhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B408AC4D2299D6930000AE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Massimiliano Bonafede";
+				TargetAttributes = {
+					B408AC542299D6930000AE68 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B408AC682299D6940000AE68 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B408AC542299D6930000AE68;
+					};
+				};
+			};
+			buildConfigurationList = B408AC502299D6930000AE68 /* Build configuration list for PBXProject "FindItAnywhere" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B408AC4C2299D6930000AE68;
+			productRefGroup = B408AC562299D6930000AE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B408AC542299D6930000AE68 /* FindItAnywhere */,
+				B408AC682299D6940000AE68 /* FindItAnywhereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B408AC532299D6930000AE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B408AC632299D6940000AE68 /* LaunchScreen.storyboard in Resources */,
+				B408AC602299D6940000AE68 /* Assets.xcassets in Resources */,
+				B408AC5E2299D6930000AE68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B408AC672299D6940000AE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EE7E822F03608A04EA1C1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindItAnywhereTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2B87F83E1330D21657A436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindItAnywhere-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B964377125667908DEB8514B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindItAnywhere/Pods-FindItAnywhere-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindItAnywhere/Pods-FindItAnywhere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B408AC512299D6930000AE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B408AC5B2299D6930000AE68 /* ViewController.swift in Sources */,
+				B408AC7B2299D9BE0000AE68 /* Weather.swift in Sources */,
+				B408AC592299D6930000AE68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B408AC652299D6940000AE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B408AC6E2299D6940000AE68 /* FindItAnywhereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B408AC6B2299D6940000AE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B408AC542299D6930000AE68 /* FindItAnywhere */;
+			targetProxy = B408AC6A2299D6940000AE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B408AC5C2299D6930000AE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B408AC5D2299D6930000AE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B408AC612299D6940000AE68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B408AC622299D6940000AE68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B408AC702299D6940000AE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B408AC712299D6940000AE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B408AC732299D6940000AE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E9297E077216B2A12DF4FB /* Pods-FindItAnywhere.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYHT7H6MRT;
+				INFOPLIST_FILE = FindItAnywhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.massimilianobonafedeiosdeveloper.FindItAnywhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B408AC742299D6940000AE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DE530BD99B57A862765323 /* Pods-FindItAnywhere.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYHT7H6MRT;
+				INFOPLIST_FILE = FindItAnywhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.massimilianobonafedeiosdeveloper.FindItAnywhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B408AC762299D6940000AE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AD3C13565E6C4B233075BB /* Pods-FindItAnywhereTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYHT7H6MRT;
+				INFOPLIST_FILE = FindItAnywhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.massimilianobonafedeiosdeveloper.FindItAnywhereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindItAnywhere.app/FindItAnywhere";
+			};
+			name = Debug;
+		};
+		B408AC772299D6940000AE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61075CE0F44769D92426A246 /* Pods-FindItAnywhereTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYHT7H6MRT;
+				INFOPLIST_FILE = FindItAnywhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.massimilianobonafedeiosdeveloper.FindItAnywhereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindItAnywhere.app/FindItAnywhere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B408AC502299D6930000AE68 /* Build configuration list for PBXProject "FindItAnywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B408AC702299D6940000AE68 /* Debug */,
+				B408AC712299D6940000AE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B408AC722299D6940000AE68 /* Build configuration list for PBXNativeTarget "FindItAnywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B408AC732299D6940000AE68 /* Debug */,
+				B408AC742299D6940000AE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B408AC752299D6940000AE68 /* Build configuration list for PBXNativeTarget "FindItAnywhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B408AC762299D6940000AE68 /* Debug */,
+				B408AC772299D6940000AE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B408AC4D2299D6930000AE68 /* Project object */;
+}
