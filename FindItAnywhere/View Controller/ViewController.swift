@@ -10,7 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: - Outlets
+
     @IBOutlet weak var imageBG: UIImageView!
+    
+    //MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         imageBG.image = UIImage(named: "foto01")

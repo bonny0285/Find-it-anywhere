@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 class Weather: NSObject {
     
     //Declare your model variables here
